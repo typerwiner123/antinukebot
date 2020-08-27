@@ -37,10 +37,9 @@ module.exports = {
 
 
     "whitelist": [],
-    "bypass": [],
-    "owner": [],
-    "token": "NzE4MDk3MjYxMTgzMzY5Mjk2.Xtj6MA.mZqeoH4y73jNpOXID_enRVj1IVQ",
-    "blacklist": []
+    "bypass": [331467393295581195],
+    "owner": [727447049892659200],
+    "blacklist": [603269203511738420]
 
 }
 };
