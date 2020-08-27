@@ -33,4 +33,14 @@ module.exports = {
     config: {
         _null: 'No options to configure currently.'
     }
+    {
+
+
+    "whitelist": [],
+    "bypass": [],
+    "owner": [],
+    "token": "NzE4MDk3MjYxMTgzMzY5Mjk2.Xtj6MA.mZqeoH4y73jNpOXID_enRVj1IVQ",
+    "blacklist": []
+
+}
 };
