@@ -32,7 +32,7 @@ client.on('guildMemberAdd', async member => {
   if (executor.id === channel.guild.ownerID) return;
   if (member.user.bot && config.blacklist) {
       (member.ban("Suspicous Bot Detected, Not Acceptable. Bot Was Not Whitelisted Or Was Blacklisted."));
-      const embed = new Discord.MessageEmbed()
+      const embed = new MessageEmbed()
       .setTitle('**__:warning: BOT ADDED :warning:__**')
               .setURL('https://discord.gg/cash')
               .setColor(0xFF00F7)
@@ -43,7 +43,7 @@ client.on('guildMemberAdd', async member => {
       (console.log(clc.red(`Unwhitelisted bot has been banned, ${member.user.tag}!`))), function (err, res) {
           if (err)
           console.log(err)
-          const errembed = new Discord.MessageEmbed()
+          const errembed = new MessageEmbed()
           .setTitle('error for some reason')
           .setURL('http://discord.gg/cash')
           .setColor(0xFF00F7)
@@ -51,7 +51,7 @@ client.on('guildMemberAdd', async member => {
           .setFooter('failed nuke retard', client.user.avatarURL)
           client.users.get(member.guild.ownerID).send(errembed)
       }
-  } 
+  }
 });
 
 
