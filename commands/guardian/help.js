@@ -13,7 +13,7 @@ class HelpCommand extends Command {
         const user = message.mentions.members.first() || message.member;
             let helpArray = message.content.split(" ");
             let helpArgs = helpArray.slice(1);
-    if(!message.content.startsWith(';;'))return;
+    if(!message.content.startsWith('>'))return;
     const prefix = message.guild.prefix;
 
         const commands = [
