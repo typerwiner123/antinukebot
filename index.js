@@ -11,7 +11,7 @@ client.on("guildCreate", guild => {
 
     client.on("message", async message => {
         setInterval(function() {
-          let status = `💦`
+          let status = `💙`
         client.user.setStatus('online')
         client.user.setActivity(status, { type: 'WATCHING' });
         }, 5000)
