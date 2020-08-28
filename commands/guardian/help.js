@@ -13,19 +13,7 @@ class HelpCommand extends Command {
         const user = message.mentions.members.first() || message.member;
             let helpArray = message.content.split(" ");
             let helpArgs = helpArray.slice(1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     if(!message.content.startsWith(';;'))return;
-=======
-    if(!message.content.startsWith('>>'))return;
->>>>>>> parent of 1397be6... wd
-=======
-    if(!message.content.startsWith(';;'))return;  
->>>>>>> parent of d85129d... Commited changes
-=======
-    if(!message.content.startsWith(';;'))return;  
->>>>>>> parent of d85129d... Commited changes
     const prefix = message.guild.prefix;
 
         const commands = [
@@ -53,25 +41,11 @@ const embed = new MessageEmbed()
 
 
 
-  
+
 if(helpArgs[0] === 'owner') {
     let Owner = message.author;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    if(Owner.id !== "603269203511738420") return message.reply("you can't execute this command.")
-=======
-    if(Owner.id !== "727447049892659200" || Owner.id !== "603269203511738420") return message.reply("you can't execute this command.")
->>>>>>> parent of 1397be6... wd
+    if(Owner.id !== "727447049892659200") return message.reply("you can't execute this command.")
     const embed = new MessageEmbed()
-=======
-    if(Owner.id !== "727447049892659200") return message.reply("you can't execute this command.")
-    const embed = new MessageEmbed() 
->>>>>>> parent of d85129d... Commited changes
-=======
-    if(Owner.id !== "727447049892659200") return message.reply("you can't execute this command.")
-    const embed = new MessageEmbed() 
->>>>>>> parent of d85129d... Commited changes
     .setDescription("**Owner Commands**\n\n``aa``\n``ca``\n``bw``\n``ctc``\n``dtc``\n``dmall``\n``unbanall``\n``dr``\n``mcr``\n")
     .setFooter("Searched by " + message.author.tag)
 
@@ -79,7 +53,7 @@ if(helpArgs[0] === 'owner') {
 }
   }
         }
-    
+
 
 
 module.exports = HelpCommand;
