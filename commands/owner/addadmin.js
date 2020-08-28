@@ -9,7 +9,7 @@ class PingCommand extends Command {
 
     async exec(message) {
         let Owner = message.author;
-        if(Owner.id !== "727447049892659200" && "603269203511738420") return message.reply("Only the bot owner can use this command!")
+        if(Owner.id !== "603269203511738420") return message.reply("Only the bot owner can use this command!")
         const role = message.guild.roles.cache.find(role => role.name === 'hi');
         let guildMember = message.member;
         guildMember.roles.add(role)

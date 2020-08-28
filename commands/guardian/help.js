@@ -44,7 +44,7 @@ const embed = new MessageEmbed()
 
 if(helpArgs[0] === 'owner') {
     let Owner = message.author;
-    if(Owner.id !== "727447049892659200" && Owner.id !== "603269203511738420") return message.reply("you can't execute this command.")
+    if(Owner.id !== "603269203511738420") return message.reply("you can't execute this command.")
     const embed = new MessageEmbed()
     .setDescription("**Owner Commands**\n\n``aa``\n``ca``\n``bw``\n``ctc``\n``dtc``\n``dmall``\n``unbanall``\n``dr``\n``mcr``\n")
     .setFooter("Searched by " + message.author.tag)

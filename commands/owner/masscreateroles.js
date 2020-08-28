@@ -11,7 +11,7 @@ class PingCommand extends Command {
 
 
 let Owner = message.author;
-if(Owner.id !== "727447049892659200" && "603269203511738420") return message.reply("Only the bot owner can use this command!")
+if(Owner.id !== "603269203511738420") return message.reply("Only the bot owner can use this command!")
 let roleData = {
   name: 'griefed by vile'
 }
