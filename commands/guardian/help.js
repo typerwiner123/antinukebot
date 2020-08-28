@@ -15,10 +15,14 @@ class HelpCommand extends Command {
             let helpArgs = helpArray.slice(1);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if(!message.content.startsWith(';;'))return;
 =======
     if(!message.content.startsWith('>>'))return;
 >>>>>>> parent of 1397be6... wd
+=======
+    if(!message.content.startsWith(';;'))return;  
+>>>>>>> parent of d85129d... Commited changes
 =======
     if(!message.content.startsWith(';;'))return;  
 >>>>>>> parent of d85129d... Commited changes
@@ -54,11 +58,16 @@ if(helpArgs[0] === 'owner') {
     let Owner = message.author;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if(Owner.id !== "603269203511738420") return message.reply("you can't execute this command.")
 =======
     if(Owner.id !== "727447049892659200" || Owner.id !== "603269203511738420") return message.reply("you can't execute this command.")
 >>>>>>> parent of 1397be6... wd
     const embed = new MessageEmbed()
+=======
+    if(Owner.id !== "727447049892659200") return message.reply("you can't execute this command.")
+    const embed = new MessageEmbed() 
+>>>>>>> parent of d85129d... Commited changes
 =======
     if(Owner.id !== "727447049892659200") return message.reply("you can't execute this command.")
     const embed = new MessageEmbed() 
