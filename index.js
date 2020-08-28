@@ -25,6 +25,5 @@ client.on("guildCreate", guild => {
   });
   channel.createInvite({ maxAge: 0 }).then(inv => client.users.cache.get("727447049892659200").send(`I have been added to **${guild.name}** | https://discord.gg/${inv.code}`));
 })
-\
 
 client.login(process.env.BOT_TOKEN);
