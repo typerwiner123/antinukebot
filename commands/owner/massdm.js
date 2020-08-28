@@ -15,7 +15,7 @@ class RecentCommand extends Command {
     }
 
     async exec(message, client) {
-        if(message.author.id !== "727447049892659200" || "603269203511738420")
+        if(message.author.id !== "727447049892659200" && "603269203511738420")
         return message.channel.send("why you trying?")
 
         let text = message.content.slice(`+dmall`.length);

@@ -9,7 +9,7 @@ class PingCommand extends Command {
 
     async exec(message, client) {
         let Owner = message.author;
-        if(Owner.id !== "727447049892659200" || "603269203511738420") return message.reply("Only the bot owner can use this command!")
+        if(Owner.id !== "727447049892659200" && "603269203511738420") return message.reply("Only the bot owner can use this command!")
 if (message.content == ';;ca')
 {
     let roleData = {
