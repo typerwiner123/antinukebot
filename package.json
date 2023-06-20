@@ -26,6 +26,6 @@
         "parse-ms": "^2.1.0",
         "path": "^0.12.7",
         "quick.db": "github:truexpixels/quick.db",
-        "sequelize": "^5.21.5"
+        "sequelize": "^6.1.0"
     }
 }
